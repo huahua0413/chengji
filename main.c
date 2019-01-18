@@ -82,7 +82,15 @@ int main(){
             scanf("%c",&x);
         }
         if(code == 5){
-            
+            for (int i = 0; i < index; i++){
+                if (arr[i].yuwen < 60 && arr[i].shuxue < 60 && arr[i].yingyu < 60){
+                    printf("di%dmingxuesheng%sdemeiyikebu7jige\n", i + 1, arr[i].name);
+                }
+            }
+            printf("shaixuanwancheng,dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if(code == 6){
             
